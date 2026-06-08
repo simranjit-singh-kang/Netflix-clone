@@ -1,0 +1,256 @@
+body{
+    width:100vw;
+    height:100vh;
+    background-color: black;
+}
+.nav{
+    padding:30px;
+    width:70%;
+    margin:auto;
+    display:flex;
+   justify-content: space-between;
+    align-items: center;
+
+}
+.logo-img{
+    width:150px;
+    
+
+}
+.nav-main{
+    display: flex;
+    gap:10px;
+
+}
+select{
+    height: 35px;
+    width: 100px;
+    border:2px solid white;
+    color:white;
+    background-color: transparent;
+    border-radius:10px;
+    margin:0px;
+}
+.sign{
+    padding:10px 20px;
+    border:2px solid rgb(214, 17, 17);
+    color:white;
+    background-color: red;
+    border-radius:10px;
+    margin:0px;
+    transition: 1ms linear 0.2ms color;
+}
+.sign:hover{
+    background-color: brown;
+    border-color: brown;
+}
+.main-section{
+    width:45%;
+    margin: 100px auto;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.8rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.sign-in{
+    display:flex;
+
+}
+input{
+    padding:20px 200px 20px 10px;
+    background-color: transparent;
+    outline:0;
+    border:1px solid red;
+    width:240px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+input::placeholder{
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.start{
+    background-color: red;
+    width:70px;
+    padding:20px ;
+    font-size: 1.2rem;
+    color:white;
+    margin-left: 10px;
+    margin-top: 20px;
+    border:solid red 1px;
+    border-radius: 10px;
+    font-weight: bold;
+    width:210px;
+    transition: color 0.4ms linear 0.1ms; 
+}
+.start:hover{
+    background-color: brown;
+    border-color: brown;
+}
+.recommendation{
+    width:80%;
+    margin: 100px auto 50px auto;
+
+}
+.recommendation-heading h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 1.9rem;
+    filter: drop-shadow(0px 0px 2px white);
+   
+
+
+}
+.recommends{
+    width:100%;
+    display:flex;
+    overflow-x: scroll;
+    overflow-y:hidden;
+    gap:0px;
+    
+   
+
+}
+
+.poster:hover{
+    transform: scale(1.1);
+}
+.number{
+    color:white;
+    position:relative;
+    right:280px;
+    top:150px;
+    font-size: 6.5rem;
+    margin:30px;
+    filter:drop-shadow(0px 0px 3px white);
+    color:black;
+
+    display:inline;
+     transition:all 0.2s ease-in 0.1s;
+}
+.poster{
+     transition:all 0.2s ease-in 0.1s;
+    border:transparent;
+    border-radius: 20px;
+    overflow: hidden;
+    margin:20px;
+}
+
+
+
+.reason-section{
+    color:white;
+    width:80%;
+    margin: 150px auto;
+    
+}
+.reasons{
+     display:grid;
+     grid-template-columns: repeat(4,1fr);
+}
+.reason{
+    background-color: blue;
+    margin:20px;
+    height:250px;
+   
+    border:transparent;
+    
+    padding:20px;
+    
+    background: linear-gradient(
+        135deg,
+        #192247 0%,
+        #210e17 100%
+    );
+    border-radius: 16px;
+}
+.reason-section h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 1.9rem;
+    filter: drop-shadow(0px 0px 2px white);
+   
+
+
+}
+.reason-main{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 1.4rem;
+
+}
+.reason-para{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(255, 255, 255, 0.594);
+    font-size: large;
+    text-align: left;
+    
+}
+.reason-image {
+  display: block;
+  width: 100px;
+  height: auto;
+}
+
+
+.fyq-section{
+    width:80%;
+    margin: 150px auto;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.questions{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:10px;
+
+}
+.question{
+    background-color: rgb(60, 60, 60);
+    padding:20px 30px;
+    max-height:60px;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border:transparent;
+    border-radius: 3px;
+    transition: color 0.2ms linear 0.2ms;
+}
+.question:hover{
+    filter:brightness(1.4);
+}
+.question h4{
+    font-weight: lighter;
+    font-size: 1.4rem;
+}
+.question h2{
+    font-weight: 50;
+    font-size: 4rem;
+}
